@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +40,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*Forms */
+
+.dropdown {
+  display: none;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  text-align: center;
+  width: 100px;
+  margin: 25px;
+}
+
+li button {
+  width: 100px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-top: 10px;
+}
+#drinkMenu {
+  height: 30px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.spirits {
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+  background-color: lightblue;
+}
+
+.soda {
+  border: 2px solid black;
+  border-bottom: 1px solid black;
+  background-color: lightcoral;
+}
+
+.juice {
+  border: 2px solid black;
+  background-color: lightseagreen;
 }
